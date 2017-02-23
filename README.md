@@ -6,7 +6,7 @@ In Order to highlight special Domains or Search Terms in the resulting Domain Na
 
 # Usage Example
     
-    bdlister [Log File] [IP Address] [Sorting] [Highlight]
+    bdlister [Log File] [IP Address] [Output] [Sorting] [Highlight]
     bdlister "/var/log/query.log" "192.168.1.110" - time
     bdlister "/var/log/query.log" "192.168.1.110" "/root/192_168_1_110.query" count "/root/hlist.txt"
 
