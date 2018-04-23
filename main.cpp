@@ -239,7 +239,7 @@ int main(int argc, char** argv)
                 tmp_info.counter = 1;
                 tmp_info.date = s_parts.at(0);
                 tmp_info.time = s_parts.at(1);
-                tmp_info.domain = s_parts.at(5).substr(1, s_parts.at(5).length() - 3);
+                tmp_info.domain = s_parts.at(6).substr(1, s_parts.at(6).length() - 1);
                 
                 // Keep only the root Domain (google.com instead of api.google.com)
                 std::vector<std::string> domain_parts = split(tmp_info.domain, ".");
